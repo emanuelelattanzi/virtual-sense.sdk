@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/jars/base.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jars/darjeeling.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jars/virtualsense.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

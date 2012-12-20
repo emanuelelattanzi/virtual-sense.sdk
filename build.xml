@@ -1,0 +1,54 @@
+<project name="VirtualSense_SDK">
+
+	<import file="${basedir}/macrodefs.xml" />
+
+	<!-- build all applications -->
+	<target name="build-all-apps" depends="">
+		<application dir="blink" target="hexdump" />
+		<application dir="sense" target="hexdump" />
+		<application dir="radioTest" target="hexdump" />
+		<application dir="multiThreadBlink" target="hexdump" />
+		<application dir="vscaling" target="hexdump" />				
+	</target>
+		<!-- clean -->
+	<target name="clean">
+		<delete dir="${build}" />
+	</target> 
+		
+	<target name="run-virtualsense-blink" depends="build-all-apps">
+			<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
+					nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
+					apps="blink" 
+					running="blink" target="run" />
+	</target>	
+	
+	<target name="run-virtualsense-multithread-blink" depends="build-all-apps">
+				<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
+						nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
+						apps="multiThreadBlink" 
+						running="multiThreadBlink" target="run" />
+	</target>
+	
+	
+	<target name="run-virtualsense-radio-test" depends="build-all-apps">
+				<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
+						nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
+						apps="radioTest" 
+						running="radioTest" target="run" />
+	</target>	
+	
+	
+	<target name="run-virtualsense-sense" depends="build-all-apps">
+					<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
+							nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
+							apps="sense" 
+							running="sense" target="run" />
+	</target>
+	
+	<target name="run-virtualsense-vscaling" depends="build-all-apps">
+					<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
+							nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
+							apps="vscaling" 
+							running="vscaling" target="run" />
+	</target>
+</project>

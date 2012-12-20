@@ -1,0 +1,33 @@
+<project name="macros">
+
+	<property file="virtualsense.properties" />
+
+	<!-- macro for building applications -->
+	<macrodef name="application">
+		<attribute name="dir" default="NOT SET" />
+		<attribute name="target" default="all" />
+		<sequential>
+			<ant antfile="${app.base}/@{dir}/app.build.xml" target="@{target}" />
+		</sequential>
+	</macrodef>
+
+	<!-- macro for building applications -->
+	<macrodef name="distro">
+		<attribute name="distro" default="NOT SET" />
+		<attribute name="target" default="all" />
+		<attribute name="infusions" default="base" />
+		<attribute name="nativeinfusions" default="base" />
+		<attribute name="apps" default="NOT SET" />
+		<attribute name="running" default="NOT SET" />
+		<attribute name="run" default="" />
+		<sequential>
+			<ant antfile="${app.base}/@{apps}/app.build.xml" target="@{target}">
+				<property name="infusions" value="@{infusions}" />
+				<property name="nativeinfusions" value="@{nativeinfusions}" />
+				<property name="apps" value="@{apps}" />
+				<property name="running" value="@{running}" />
+				<property name="run" value="@{run}" />
+			</ant>
+		</sequential>
+	</macrodef>
+</project>

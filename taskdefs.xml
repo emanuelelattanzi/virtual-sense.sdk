@@ -1,0 +1,28 @@
+<project name="virtualSense_SDK">
+
+	<property file="virtualsense.properties" />
+	<property environment="env" />
+
+	<!-- Infuser task -->
+	<taskdef name="infuser" classname="org.csiro.darjeeling.infuser.ant.InfuserTask">
+		<classpath path="${tools.classpath}" />
+	</taskdef>
+
+	<!-- Embedded loader task -->
+	<taskdef name="embeddedloader"
+		classname="org.csiro.darjeeling.embeddedloader.ant.EmbeddedLoaderTask">
+		<classpath path="${tools.classpath}" />
+	</taskdef>
+	
+	<!-- Application flasher task -->
+		<taskdef name="applicationflasher"
+			classname="org.csiro.darjeeling.applicationflasher.ant.ApplicationFlasherTask">
+			<classpath path="${tools.classpath}" />
+	</taskdef>
+	
+	<!-- HexDumbp file task -->
+		<taskdef name="hexdump" classname="org.csiro.darjeeling.hexdump.ant.HexDumpTask">
+			<classpath path="${tools.classpath}" />
+	</taskdef>
+
+</project>
