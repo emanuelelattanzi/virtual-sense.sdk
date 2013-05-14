@@ -79,9 +79,7 @@ public class VScaling
 			 Leds.setLed(1,true);
 		     Leds.setLed(2,true);
 		     Leds.setLed(3,true);
-		     Leds.setLed(4,true);
-		     Leds.setLed(5,true);
-		     Leds.setLed(6,true);
+		   
         //}
     }
     public static void CPUBurst(){

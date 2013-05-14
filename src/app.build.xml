@@ -62,14 +62,14 @@
 					saddress="5c00" appdir="${app.generated}"/>				
 	</target>
 	
-	<target name="run" depends="compile, applicationflasher">
+	<target name="run" depends="applicationflasher">
 
 				
-				<property name="msp430-port" value="/dev/ttyACM0" />
+				<property name="msp430-port" value="/dev/ttyUSB0" />
 			    <!-- this is the programming command under Linux OS using mspdebug -->
-				<exec executable="mspdebug">
-					<arg line="tilib" />
-					<arg line="-j" />
+				<exec executable="virtualsense-bsl">
+					<arg line="flash-bsl5" />
+					<arg line="--long-password" />
 					<arg line="-d ${msp430-port}" />
 					<arg line="'prog  ${app.generated}/firmware/virtualsense.txt'" />
 				</exec>

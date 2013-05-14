@@ -73,32 +73,28 @@
       <classdef entity_id="12" name="javax.virtualsense.platform.TaskManager" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
         <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="72" methodimpl.infusion="virtualsense"/>
       </classdef>
-      <classdef entity_id="13" name="javax.virtualsense.platform.Th" superclass.entity_id="29" superclass.infusion="base" superclass.name="java.lang.Thread">
+      <classdef entity_id="13" name="javax.virtualsense.powermanagement.HibernationException" superclass.entity_id="24" superclass.infusion="base" superclass.name="java.lang.RuntimeException">
         <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="80" methodimpl.infusion="virtualsense"/>
-        <method methoddef.entity_id="29" methoddef.infusion="base" methodimpl.entity_id="81" methodimpl.infusion="virtualsense"/>
+        <method methoddef.entity_id="17" methoddef.infusion="base" methodimpl.entity_id="81" methodimpl.infusion="virtualsense"/>
       </classdef>
-      <classdef entity_id="14" name="javax.virtualsense.powermanagement.HibernationException" superclass.entity_id="24" superclass.infusion="base" superclass.name="java.lang.RuntimeException">
+      <classdef entity_id="14" name="javax.virtualsense.powermanagement.PowerManager" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
         <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="82" methodimpl.infusion="virtualsense"/>
-        <method methoddef.entity_id="17" methoddef.infusion="base" methodimpl.entity_id="83" methodimpl.infusion="virtualsense"/>
       </classdef>
-      <classdef entity_id="15" name="javax.virtualsense.powermanagement.PowerManager" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
-        <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="84" methodimpl.infusion="virtualsense"/>
+      <classdef entity_id="15" name="javax.virtualsense.radio.Radio" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object"/>
+      <classdef entity_id="16" name="javax.virtualsense.radio.RadioNotInitialisedException" superclass.entity_id="24" superclass.infusion="base" superclass.name="java.lang.RuntimeException">
+        <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="105" methodimpl.infusion="virtualsense"/>
       </classdef>
-      <classdef entity_id="16" name="javax.virtualsense.radio.Radio" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object"/>
-      <classdef entity_id="17" name="javax.virtualsense.radio.RadioNotInitialisedException" superclass.entity_id="24" superclass.infusion="base" superclass.name="java.lang.RuntimeException">
-        <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="107" methodimpl.infusion="virtualsense"/>
+      <classdef entity_id="17" name="javax.virtualsense.sensors.ADC" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
+        <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="106" methodimpl.infusion="virtualsense"/>
       </classdef>
-      <classdef entity_id="18" name="javax.virtualsense.sensors.ADC" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
-        <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="108" methodimpl.infusion="virtualsense"/>
+      <classdef entity_id="18" name="javax.virtualsense.sensors.Humidity" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
+        <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="109" methodimpl.infusion="virtualsense"/>
       </classdef>
-      <classdef entity_id="19" name="javax.virtualsense.sensors.Humidity" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
+      <classdef entity_id="19" name="javax.virtualsense.sensors.Light" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
         <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="111" methodimpl.infusion="virtualsense"/>
       </classdef>
-      <classdef entity_id="20" name="javax.virtualsense.sensors.Light" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
+      <classdef entity_id="20" name="javax.virtualsense.sensors.Temperature" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
         <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="113" methodimpl.infusion="virtualsense"/>
-      </classdef>
-      <classdef entity_id="21" name="javax.virtualsense.sensors.Temperature" superclass.entity_id="20" superclass.infusion="base" superclass.name="java.lang.Object">
-        <method methoddef.entity_id="0" methoddef.infusion="base" methodimpl.entity_id="115" methodimpl.infusion="virtualsense"/>
       </classdef>
     </classlist>
     <methoddeflist>
@@ -266,43 +262,41 @@
       <methodimpl entity_id="78" integer_argument_count="1" methoddef.entity_id="57" methoddef.infusion="virtualsense" parentclass.entity_id="12" parentclass.infusion="virtualsense" reference_argument_count="0"/>
       <methodimpl entity_id="79" integer_argument_count="0" methoddef.entity_id="34" methoddef.infusion="base" parentclass.entity_id="12" parentclass.infusion="virtualsense" reference_argument_count="0"/>
       <methodimpl entity_id="80" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="13" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="81" integer_argument_count="0" methoddef.entity_id="29" methoddef.infusion="base" parentclass.entity_id="13" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="81" integer_argument_count="0" methoddef.entity_id="17" methoddef.infusion="base" parentclass.entity_id="13" parentclass.infusion="virtualsense" reference_argument_count="0"/>
       <methodimpl entity_id="82" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="83" integer_argument_count="0" methoddef.entity_id="17" methoddef.infusion="base" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="84" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="85" integer_argument_count="2" methoddef.entity_id="58" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="86" integer_argument_count="2" methoddef.entity_id="59" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="87" integer_argument_count="0" methoddef.entity_id="60" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="88" integer_argument_count="0" methoddef.entity_id="61" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="89" integer_argument_count="0" methoddef.entity_id="62" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="90" integer_argument_count="2" methoddef.entity_id="63" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="91" integer_argument_count="2" methoddef.entity_id="64" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="92" integer_argument_count="2" methoddef.entity_id="65" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="93" integer_argument_count="1" methoddef.entity_id="66" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="94" integer_argument_count="0" methoddef.entity_id="33" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="95" integer_argument_count="0" methoddef.entity_id="67" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="96" integer_argument_count="0" methoddef.entity_id="68" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="97" integer_argument_count="0" methoddef.entity_id="69" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="98" integer_argument_count="0" methoddef.entity_id="70" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="99" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="100" integer_argument_count="0" methoddef.entity_id="10" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="101" integer_argument_count="0" methoddef.entity_id="71" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="102" integer_argument_count="0" methoddef.entity_id="72" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="103" integer_argument_count="0" methoddef.entity_id="73" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="1"/>
-      <methodimpl entity_id="104" integer_argument_count="0" methoddef.entity_id="74" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="1"/>
-      <methodimpl entity_id="105" integer_argument_count="1" methoddef.entity_id="75" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="1"/>
-      <methodimpl entity_id="106" integer_argument_count="1" methoddef.entity_id="76" methoddef.infusion="virtualsense" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="1"/>
-      <methodimpl entity_id="107" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="17" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="108" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="18" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="109" integer_argument_count="0" methoddef.entity_id="77" methoddef.infusion="virtualsense" parentclass.entity_id="18" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="110" integer_argument_count="1" methoddef.entity_id="78" methoddef.infusion="virtualsense" parentclass.entity_id="18" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="83" integer_argument_count="2" methoddef.entity_id="58" methoddef.infusion="virtualsense" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="84" integer_argument_count="2" methoddef.entity_id="59" methoddef.infusion="virtualsense" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="85" integer_argument_count="0" methoddef.entity_id="60" methoddef.infusion="virtualsense" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="86" integer_argument_count="0" methoddef.entity_id="61" methoddef.infusion="virtualsense" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="87" integer_argument_count="0" methoddef.entity_id="62" methoddef.infusion="virtualsense" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="88" integer_argument_count="2" methoddef.entity_id="63" methoddef.infusion="virtualsense" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="89" integer_argument_count="2" methoddef.entity_id="64" methoddef.infusion="virtualsense" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="90" integer_argument_count="2" methoddef.entity_id="65" methoddef.infusion="virtualsense" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="91" integer_argument_count="1" methoddef.entity_id="66" methoddef.infusion="virtualsense" parentclass.entity_id="14" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="92" integer_argument_count="0" methoddef.entity_id="33" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="93" integer_argument_count="0" methoddef.entity_id="67" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="94" integer_argument_count="0" methoddef.entity_id="68" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="95" integer_argument_count="0" methoddef.entity_id="69" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="96" integer_argument_count="0" methoddef.entity_id="70" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="97" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="98" integer_argument_count="0" methoddef.entity_id="10" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="99" integer_argument_count="0" methoddef.entity_id="71" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="100" integer_argument_count="0" methoddef.entity_id="72" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="101" integer_argument_count="0" methoddef.entity_id="73" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="1"/>
+      <methodimpl entity_id="102" integer_argument_count="0" methoddef.entity_id="74" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="1"/>
+      <methodimpl entity_id="103" integer_argument_count="1" methoddef.entity_id="75" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="1"/>
+      <methodimpl entity_id="104" integer_argument_count="1" methoddef.entity_id="76" methoddef.infusion="virtualsense" parentclass.entity_id="15" parentclass.infusion="virtualsense" reference_argument_count="1"/>
+      <methodimpl entity_id="105" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="16" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="106" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="17" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="107" integer_argument_count="0" methoddef.entity_id="77" methoddef.infusion="virtualsense" parentclass.entity_id="17" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="108" integer_argument_count="1" methoddef.entity_id="78" methoddef.infusion="virtualsense" parentclass.entity_id="17" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="109" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="18" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="110" integer_argument_count="0" methoddef.entity_id="79" methoddef.infusion="virtualsense" parentclass.entity_id="18" parentclass.infusion="virtualsense" reference_argument_count="0"/>
       <methodimpl entity_id="111" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="19" parentclass.infusion="virtualsense" reference_argument_count="0"/>
       <methodimpl entity_id="112" integer_argument_count="0" methoddef.entity_id="79" methoddef.infusion="virtualsense" parentclass.entity_id="19" parentclass.infusion="virtualsense" reference_argument_count="0"/>
       <methodimpl entity_id="113" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="20" parentclass.infusion="virtualsense" reference_argument_count="0"/>
       <methodimpl entity_id="114" integer_argument_count="0" methoddef.entity_id="79" methoddef.infusion="virtualsense" parentclass.entity_id="20" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="115" integer_argument_count="0" methoddef.entity_id="0" methoddef.infusion="base" parentclass.entity_id="21" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="116" integer_argument_count="0" methoddef.entity_id="79" methoddef.infusion="virtualsense" parentclass.entity_id="21" parentclass.infusion="virtualsense" reference_argument_count="0"/>
-      <methodimpl entity_id="117" integer_argument_count="0" methoddef.entity_id="80" methoddef.infusion="virtualsense" parentclass.entity_id="21" parentclass.infusion="virtualsense" reference_argument_count="0"/>
+      <methodimpl entity_id="115" integer_argument_count="0" methoddef.entity_id="80" methoddef.infusion="virtualsense" parentclass.entity_id="20" parentclass.infusion="virtualsense" reference_argument_count="0"/>
     </methodimpllist>
     <staticfieldlist>
       <fielddef entity_id="0" name="protocol" parentclass.entity_id="3" parentclass.infusion="virtualsense" signature="Ljavax/virtualsense/network/Protocol;" type="Ref"/>
@@ -316,18 +310,18 @@
       <fielddef entity_id="5" name="type" parentclass.entity_id="8" parentclass.infusion="virtualsense" signature="S" type="Short"/>
       <fielddef entity_id="6" name="executionContextID" parentclass.entity_id="8" parentclass.infusion="virtualsense" signature="S" type="Short"/>
       <fielddef entity_id="2" name="tasks" parentclass.entity_id="12" parentclass.infusion="virtualsense" signature="Ljava/util/ArrayList;" type="Ref"/>
-      <fielddef entity_id="7" name="MCU_4MHZ" parentclass.entity_id="15" parentclass.infusion="virtualsense" signature="S" type="Short"/>
-      <fielddef entity_id="8" name="MCU_8MHZ" parentclass.entity_id="15" parentclass.infusion="virtualsense" signature="S" type="Short"/>
-      <fielddef entity_id="9" name="MCU_12MHZ" parentclass.entity_id="15" parentclass.infusion="virtualsense" signature="S" type="Short"/>
-      <fielddef entity_id="10" name="MCU_16MHZ" parentclass.entity_id="15" parentclass.infusion="virtualsense" signature="S" type="Short"/>
-      <fielddef entity_id="11" name="MCU_20MHZ" parentclass.entity_id="15" parentclass.infusion="virtualsense" signature="S" type="Short"/>
-      <fielddef entity_id="12" name="MCU_25MHZ" parentclass.entity_id="15" parentclass.infusion="virtualsense" signature="S" type="Short"/>
-      <fielddef entity_id="3" name="sendLock" parentclass.entity_id="16" parentclass.infusion="virtualsense" signature="Ljava/lang/Object;" type="Ref"/>
-      <fielddef entity_id="4" name="receiveLock" parentclass.entity_id="16" parentclass.infusion="virtualsense" signature="Ljava/lang/Object;" type="Ref"/>
-      <fielddef entity_id="13" name="HUMIDITY_CHANNEL" parentclass.entity_id="19" parentclass.infusion="virtualsense" signature="S" type="Short"/>
-      <fielddef entity_id="14" name="LIGHT_CHANNEL" parentclass.entity_id="20" parentclass.infusion="virtualsense" signature="S" type="Short"/>
-      <fielddef entity_id="15" name="TEMP_CHANNEL" parentclass.entity_id="21" parentclass.infusion="virtualsense" signature="S" type="Short"/>
-      <fielddef entity_id="16" name="BOARD_TEMP_CHANNEL" parentclass.entity_id="21" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="7" name="MCU_4MHZ" parentclass.entity_id="14" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="8" name="MCU_8MHZ" parentclass.entity_id="14" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="9" name="MCU_12MHZ" parentclass.entity_id="14" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="10" name="MCU_16MHZ" parentclass.entity_id="14" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="11" name="MCU_20MHZ" parentclass.entity_id="14" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="12" name="MCU_25MHZ" parentclass.entity_id="14" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="3" name="sendLock" parentclass.entity_id="15" parentclass.infusion="virtualsense" signature="Ljava/lang/Object;" type="Ref"/>
+      <fielddef entity_id="4" name="receiveLock" parentclass.entity_id="15" parentclass.infusion="virtualsense" signature="Ljava/lang/Object;" type="Ref"/>
+      <fielddef entity_id="13" name="HUMIDITY_CHANNEL" parentclass.entity_id="18" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="14" name="LIGHT_CHANNEL" parentclass.entity_id="19" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="15" name="TEMP_CHANNEL" parentclass.entity_id="20" parentclass.infusion="virtualsense" signature="S" type="Short"/>
+      <fielddef entity_id="16" name="BOARD_TEMP_CHANNEL" parentclass.entity_id="20" parentclass.infusion="virtualsense" signature="S" type="Short"/>
     </staticfieldlist>
     <stringtable>
       <string entity_id="0" value="LOADING A NEW TASK"/>
@@ -340,8 +334,7 @@
       <string entity_id="7" value="----- Starting a task "/>
       <string entity_id="8" value="----- Stopping a task "/>
       <string entity_id="9" value="----- Unloading task "/>
-      <string entity_id="10" value="WWWWW!"/>
-      <string entity_id="11" value="HibernationException"/>
+      <string entity_id="10" value="HibernationException"/>
     </stringtable>
     <infusionlist>
       <infusion>

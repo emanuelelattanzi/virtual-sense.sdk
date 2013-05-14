@@ -25,7 +25,6 @@ import javax.virtualsense.powermanagement.PowerManager;
 import java.lang.Runtime;
 
 public class Blink {
-	static int temp = 0;
 
 	public static void motemain() {
 
@@ -37,7 +36,7 @@ public class Blink {
 		 */
 		PowerManager.setSystemClockMillis(500);
 		while (true) {
-			for (short i = 0; i < 7; i++) {
+			for (short i = 0; i < 3; i++) {
 
 				Leds.setLed(i, state);
 				Thread.sleep(1000);

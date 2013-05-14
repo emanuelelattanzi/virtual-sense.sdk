@@ -16,16 +16,19 @@
 	</target> 
 		
 	<target name="run-virtualsense-blink" depends="build-all-apps">
+		 		
 			<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
 					nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
 					apps="blink" 
-					running="blink" target="run" />
+				    app.dir="blink"
+					running="blink, virtualsense" target="run" />
 	</target>	
 	
 	<target name="run-virtualsense-multithread-blink" depends="build-all-apps">
 				<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
 						nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
 						apps="multiThreadBlink" 
+						app.dir="multiThreadBlink"
 						running="multiThreadBlink" target="run" />
 	</target>
 	
@@ -34,7 +37,8 @@
 				<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
 						nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
 						apps="radioTest" 
-						running="radioTest" target="run" />
+						app.dir="radioTest"
+						running="radioTest, virtualsense" target="run" />
 	</target>	
 	
 	
@@ -42,13 +46,15 @@
 					<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
 							nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
 							apps="sense" 
-							running="sense" target="run" />
+							app.dir="sense"
+							running="sense, virtualsense" target="run" />
 	</target>
 	
 	<target name="run-virtualsense-vscaling" depends="build-all-apps">
 					<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
 							nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
 							apps="vscaling" 
-							running="vscaling" target="run" />
+						    app.dir="vscaling"
+							running="vscaling, virtualsense" target="run" />
 	</target>
 </project>
