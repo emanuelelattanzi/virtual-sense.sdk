@@ -6,7 +6,8 @@
 	<target name="build-all-apps" depends="">
 		<application dir="blink" target="hexdump" />
 		<application dir="sense" target="hexdump" />
-		<application dir="radioTest" target="hexdump" />
+		<application dir="radio_test_node" target="hexdump" />
+		<application dir="radio_test_sink" target="hexdump" />
 		<application dir="multiThreadBlink" target="hexdump" />
 		<application dir="vscaling" target="hexdump" />				
 	</target>
@@ -33,13 +34,20 @@
 	</target>
 	
 	
-	<target name="run-virtualsense-radio-test" depends="build-all-apps">
+	<target name="run-virtualsense-radio-test-sink" depends="build-all-apps">
 				<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
 						nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
-						apps="radioTest" 
-						app.dir="radioTest"
-						running="radioTest, virtualsense" target="run" />
+						apps="radio_test_sink" 
+						app.dir="radio_test_sink"
+						running="radio_test_sink, virtualsense" target="run" />
 	</target>	
+	<target name="run-virtualsense-radio-test-node" depends="build-all-apps">
+					<distro distro="virtualsense" infusions="base, darjeeling, virtualsense"
+							nativeinfusions="base, darjeeling, virtualsense" run="virtualsense" 
+							apps="radio_test_node" 
+							app.dir="radio_test_node"
+							running="radio_test_node, virtualsense" target="run" />
+    </target>
 	
 	
 	<target name="run-virtualsense-sense" depends="build-all-apps">

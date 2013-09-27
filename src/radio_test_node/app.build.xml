@@ -1,10 +1,10 @@
 <project basedir="../../../" default="compile">
 
 	<!-- application directory (relative to /src/app) -->
-	<property name="app.dir" value="radioTest" />
+	<property name="app.dir" value="radio_test_node" />
 
 	<!-- application name and version -->
-	<property name="app.name" value="radioTest" />
+	<property name="app.name" value="radio_test_node" />
 	<property name="app.majorversion" value="0" />
 	<property name="app.minorversion" value="1" />
 
